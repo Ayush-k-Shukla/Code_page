@@ -29,6 +29,7 @@ function App() {
   }, []);
   return (
     <Router>
+    <div >
       <div>
         <Navabar sticky="top" />
       </div>
@@ -421,6 +422,7 @@ function App() {
       </section>
 
       <div></div>
+      </div>
     </Router>
   );
 }

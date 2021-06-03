@@ -57,7 +57,7 @@
 .career-section img {
   margin: 0 auto;
   display: block;
-  width: -webkit-fill-available;
+ 
 }
 .career-section {
   padding: 200px 0px 100px 0px;
@@ -74,6 +74,14 @@
 .career-section img {
   margin: 0 auto;
   display: block;
+}
+
+@media only screen and (max-width: 768px){
+  html,
+  body{
+  width:100%;
+  overflow-x:hidden;
+  }
 }
 
 .your-life {
