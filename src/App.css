@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap"rel="stylesheet");
 
-.font-op{
-  font-family:Poppins;
+.font-op {
+  font-family: Poppins;
 }
 
 #stats {
@@ -17,19 +17,18 @@
   padding-top: 10%;
 }
 
-.footer{
-  background-color: #cbd2d6;
+.footer {
+  background-color: #1d88cd2e;
 }
-#changec{
+#changec {
   color: #eba91c;
 }
-#recruitment-text{
-  text-align:center;
+#recruitment-text {
+  text-align: center;
 }
-.career-section{
- 
-    background-color: rgb(237, 248, 255);
-    padding: 100px 0px ;
+.career-section {
+  background-color: rgb(237, 248, 255);
+  padding: 100px 0px;
 }
 #po1 {
   padding-top: 40px;
@@ -40,7 +39,6 @@
 .career-section img {
   margin: 0 auto;
   display: block;
- 
 }
 .career-section {
   padding: 200px 0px 100px 0px;
@@ -49,7 +47,6 @@
 .career-section h2 {
   font-size: 60px;
   font-weight: 600;
-  
 }
 .career-section h2 span {
   color: #b6bbbe;
@@ -60,11 +57,11 @@
   display: block;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   html,
-  body{
-  width:100%;
-  overflow-x:hidden;
+  body {
+    width: 100%;
+    overflow-x: hidden;
   }
 }
 
@@ -121,7 +118,6 @@
   text-align: center;
 }
 
-
 .learn-process {
   padding: 100px 0px;
 }
@@ -147,10 +143,6 @@
   width: 50%;
   padding: 10px;
 }
-.custom-control-input:focus ~ .custom-control-label::before {
-  border-color: violet !important;
-  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0) !important;
-}
 
 .custom-control-input:checked ~ .custom-control-label::before {
   border-color: violet !important;
@@ -162,20 +154,26 @@
   border-color: violet !important;
 }
 
-
-.achievement{
+.achievement {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
+.img-responsive {
+  max-height: 100px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
 @media only screen and (max-width: 600px) {
-  #mob-apply{
+  #mob-apply {
     padding-top: -20px;
     padding-bottom: 20px;
     text-align: center;
   }
-
-
 
   .career-section h2 {
     font-size: 30px;
@@ -188,17 +186,10 @@
   #po1 {
     padding: 10px 10px 10px 10px;
   }
-  #stats h1  {
-   font-size: 1em; 
+  #stats h1 {
+    font-size: 1em;
   }
-  #stats h6{
-font-size: .5em;
+  #stats h6 {
+    font-size: 0.5em;
   }
-}
-.img-responsive { 
-  max-height: 100px;
-  max-width: 30%; 
-  overflow: visible;
-  padding-top: 0;
-  padding-bottom: 0;  
 }

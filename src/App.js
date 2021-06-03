@@ -151,7 +151,7 @@ function App() {
               <div>
                 <InputGroup size="lg">
                   <InputGroup.Prepend>
-                    <InputGroup.Text id="inputGroup-sizing-lg"></InputGroup.Text>
+                    <InputGroup.Text id="inputGroup-sizing-lg">Search</InputGroup.Text>
                   </InputGroup.Prepend>
                   <FormControl
                     aria-label="Large"

@@ -26,9 +26,9 @@ const Navabar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about-us">Carrer</Nav.Link>
-              <Nav.Link href="/contact-us">About Us</Nav.Link></Nav>
+          <Nav.Link  href="/" class="link">Home</Nav.Link>
+              <Nav.Link href="/" class="link">Carrer</Nav.Link>
+              <Nav.Link href="/" class="link">About Us</Nav.Link></Nav>
           <Nav>
             <Form inline>
               
