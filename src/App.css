@@ -12,13 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+npm :start
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -36,3 +37,158 @@
     transform: rotate(360deg);
   }
 }
+
+
+#stats {
+  background-color: #eba91c;
+  border-radius: 1px;
+  height: 50%;
+}
+#cw {
+  color: whitesmoke;
+}
+#your-life-class {
+  padding-top: 10%;
+}
+
+
+#changec{
+  color: #eba91c;
+}
+#recruitment-text{
+  text-align:center;
+}
+.career-section{
+ 
+    background-color: rgb(237, 248, 255);
+    padding: 100px 0px 50px;
+}
+#po1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.career-section img {
+  margin: 0 auto;
+  display: block;
+  width: -webkit-fill-available;
+}
+.career-section {
+  padding: 200px 0px 100px 0px;
+  background-color: #edf8ff;
+}
+.career-section h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.career-section h2 span {
+  color: #b6bbbe;
+  font-size: 80px;
+}
+.career-section img {
+  margin: 0 auto;
+  display: block;
+}
+
+.your-life {
+  padding: 100px 0px;
+}
+.your-box {
+  background-color: #fff;
+  margin: 15px 0px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ececec;
+}
+.your-box h3 {
+  font-size: 18px;
+}
+.your-box p {
+  font-size: 14px;
+}
+.marg-top {
+  margin-top: 50px;
+}
+.your-life h2 {
+  font-size: 80px;
+  font-weight: 600;
+  color: #1d88cd;
+}
+.join {
+  padding: 70px 0px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.join h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ff8947;
+}
+.join-box button {
+  font-size: 14px;
+  background-color: #1d88cd2e;
+  color: #eba91c;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  display: inline-block;
+  transition: 0.9s;
+}
+.join-box button:hover {
+  color: #fff;
+  background-color: #eba91c;
+}
+#openi {
+  text-align: center;
+}
+#dropdown-basic {
+  background-color: #eba91c;
+  background-color: ;
+}
+
+
+.learn-process {
+  padding: 100px 0px;
+}
+.learn-process h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+}
+.learn-process h2 {
+  font-size: 22px;
+  color: #000;
+}
+
+.learn-box {
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px ;
+  
+}
+
+#switch1 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+  border-color: violet !important;
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0) !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: violet !important;
+  background-color: #eba91c !important;
+}
+
+.custom-control-input:active ~ .custom-control-label::before {
+  background-color: #eba91c !important;
+  border-color: violet !important;
+}
+/* 
+.custom-control-input:focus:
+          not(:checked) ~ .custom-control-label::before {
+  border-color: violet !important;
+} */
