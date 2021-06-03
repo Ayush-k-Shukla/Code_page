@@ -4,10 +4,11 @@ import "aos/dist/aos.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Image, InputGroup, FormControl } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { SocialIcon } from "react-social-icons";
+
 import "./App.css";
 
 import Navabar from "./components/navabar.component";
+import Footer from "./components/footer.component";
 import myimg from "./images/carrer.png";
 import ij1 from "./images/job_1.png";
 import ij2 from "./images/job_2.png";
@@ -20,12 +21,7 @@ import ip2 from "./images/p2.png";
 import ip3 from "./images/p3.png";
 import ip4 from "./images/p4.png";
 
-
-
-
-
 function App() {
-  
   useEffect(() => {
     Aos.init({ duration: 1800 });
   }, []);
@@ -35,9 +31,9 @@ function App() {
         <div>
           <Navabar sticky="top" />
         </div>
-        <section  class="career-section">
+        <section class="career-section">
           <div class="container">
-            <div data-aos="fade-up"  class="row">
+            <div data-aos="fade-up" class="row">
               <div class="col-sm-6">
                 <h2>
                   Join Our Team At <span>CODE</span>
@@ -213,7 +209,7 @@ function App() {
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12 col-4"
+                    class="col-lg-4 col-md-12 col-sm-12 "
                   >
                     <div class="your-box">
                       <h3>Data Scientist</h3>
@@ -432,39 +428,7 @@ function App() {
           </div>
         </section>
 
-        <div class="footer">
-          <footer class="text-center text-white">
-            <div class="container">
-              <section>
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="/"
-                >
-                  <SocialIcon url="https://www.facebook.com/codebietjhs" />
-                </a>
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="/"
-                >
-                  <SocialIcon url="https://www.linkedin.com/company/codebietjhs/mycompany/" />
-                </a>
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="/"
-                >
-                  <SocialIcon url="https://github.com/codebiet" />
-                </a>
-              </section>
-            </div>
-
-            <div class="text-center text-dark p-3">
-              © 2020 Copyright:
-              <a class="text-dark" href="/">
-                CODE
-              </a>
-            </div>
-          </footer>
-        </div>
+        <Footer></Footer>
       </div>
     </Router>
   );
