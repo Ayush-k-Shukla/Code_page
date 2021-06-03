@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet");
+
 .App {
   text-align: center;
 }
@@ -37,7 +39,9 @@
   padding-top: 10%;
 }
 
-
+.footer{
+  background-color: #cbd2d6;
+}
 #changec{
   color: #eba91c;
 }
@@ -105,7 +109,7 @@
   margin-top: 50px;
 }
 .your-life h2 {
-  font-size: 5vw;
+  font-size: 60px;
   font-weight: 600;
   color: #1d88cd;
 }
@@ -177,5 +181,11 @@
 .custom-control-input:active ~ .custom-control-label::before {
   background-color: #eba91c !important;
   border-color: violet !important;
+}
+
+
+.achievement{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
