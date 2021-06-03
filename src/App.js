@@ -27,7 +27,7 @@ function App() {
   }, []);
   return (
     <Router>
-      <div>
+      <div class="font-op">
         <div>
           <Navabar sticky="top" />
         </div>
