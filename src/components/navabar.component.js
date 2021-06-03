@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -20,7 +21,7 @@ const Navabar = () => {
   return (
     <div class="container">
       <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
-        <Navbar.Brand href="/" class="logo"><img class="img-responsive" src={i1}></img>CODE</Navbar.Brand>
+        <Navbar.Brand href="/" class="logo"><img class="img-responsive" src={i1} alt="logo-img"></img>CODE</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>

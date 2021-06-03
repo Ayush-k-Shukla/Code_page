@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-npm :start
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,15 +21,6 @@ npm :start
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 
@@ -61,7 +46,7 @@ npm :start
 .career-section{
  
     background-color: rgb(237, 248, 255);
-    padding: 100px 0px 50px;
+    padding: 100px 0px ;
 }
 #po1 {
   padding-top: 40px;
@@ -79,12 +64,12 @@ npm :start
   background-color: #edf8ff;
 }
 .career-section h2 {
-  font-size: 60px;
+  font-size: 4rem;
   font-weight: 600;
 }
 .career-section h2 span {
   color: #b6bbbe;
-  font-size: 80px;
+  font-size: 5rem;
 }
 .career-section img {
   margin: 0 auto;
@@ -142,10 +127,6 @@ npm :start
 #openi {
   text-align: center;
 }
-#dropdown-basic {
-  background-color: #eba91c;
-  background-color: ;
-}
 
 
 .learn-process {
@@ -187,8 +168,4 @@ npm :start
   background-color: #eba91c !important;
   border-color: violet !important;
 }
-/* 
-.custom-control-input:focus:
-          not(:checked) ~ .custom-control-label::before {
-  border-color: violet !important;
-} */
+
