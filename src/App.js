@@ -383,8 +383,8 @@ function App() {
               Learn Our Recruitment <span id="changec">Process</span>
             </h1>
             <br />
-            <div data-aos="fade-up" class="row">
-              <div class="col-lg-3 col-md-6 col-sm-6">
+            <div  class="row">
+              <div  data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
                 <div class="learn-box">
                   <Image src={ip1} />
                   <h2>CV Submission</h2>
@@ -394,7 +394,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
                 <div class="learn-box">
                   <Image src={ip2} />
                   <h2>Phone Screening</h2>
@@ -404,7 +404,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
                 <div class="learn-box">
                   <Image src={ip3} />
                   <h2>Skill Assessment</h2>
@@ -414,7 +414,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
                 <div class="learn-box">
                   <Image src={ip4} />
                   <h2>Final Interview</h2>
