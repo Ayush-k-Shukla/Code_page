@@ -26,7 +26,8 @@
 
 #stats {
   background-color: #eba91c;
-  border-radius: 1px;
+  border-radius: 1rem;
+  padding: auto;
   height: 50%;
 }
 #cw {
@@ -64,12 +65,12 @@
   background-color: #edf8ff;
 }
 .career-section h2 {
-  font-size: 4rem;
+  font-size: 5vw;
   font-weight: 600;
 }
 .career-section h2 span {
   color: #b6bbbe;
-  font-size: 5rem;
+  font-size: 5vw;
 }
 .career-section img {
   margin: 0 auto;
@@ -104,7 +105,7 @@
   margin-top: 50px;
 }
 .your-life h2 {
-  font-size: 80px;
+  font-size: 5vw;
   font-weight: 600;
   color: #1d88cd;
 }
@@ -118,6 +119,7 @@
   font-weight: 600;
   color: #ff8947;
 }
+
 .join-box button {
   font-size: 14px;
   background-color: #1d88cd2e;
