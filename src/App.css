@@ -69,12 +69,12 @@
   background-color: #edf8ff;
 }
 .career-section h2 {
-  font-size: 5vw;
+  font-size: 60px;
   font-weight: 600;
 }
 .career-section h2 span {
   color: #b6bbbe;
-  font-size: 5vw;
+  font-size: 80px;
 }
 .career-section img {
   margin: 0 auto;
@@ -189,3 +189,22 @@
   padding-right: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .career-section h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .career-section h2 span {
+    color: #b6bbbe;
+    font-size: 60px;
+  }
+  #po1 {
+    padding: 10px 10px 10px 10px;
+  }
+  #stats h1  {
+   font-size: 1em; 
+  }
+  #stats h6{
+font-size: .5em;
+  }
+}

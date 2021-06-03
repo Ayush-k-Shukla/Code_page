@@ -213,7 +213,7 @@ function App() {
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12"
+                    class="col-lg-4 col-md-12 col-sm-12 col-4"
                   >
                     <div class="your-box">
                       <h3>Data Scientist</h3>
@@ -354,25 +354,25 @@ function App() {
         <section data-aos="fade-up" class="achievement">
           <div class="container" id="stats">
             <div class="row" id="po1">
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-3 ">
                 <div class="">
                   <h1 id="cw">45+</h1>
                   <h6 id="cw">TEAM MEMEBERS</h6>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-3">
                 <div class="">
                   <h1 id="cw">25+</h1>
                   <h6 id="cw">TOTAL PRODUCTS</h6>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-3">
                 <div class="">
                   <h1 id="cw">800,000+</h1>
                   <h6 id="cw">HAPPY USERS</h6>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-3">
                 <div class="">
                   <h1 id="cw">24K</h1>
                   <h6 id="cw">HAPPY MOMENTS</h6>
