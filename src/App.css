@@ -169,6 +169,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #mob-apply{
+    padding-top: -20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+
+
   .career-section h2 {
     font-size: 30px;
     font-weight: 600;

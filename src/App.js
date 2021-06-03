@@ -34,18 +34,18 @@ function App() {
         <section class="career-section">
           <div class="container">
             <div data-aos="fade-up" class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-6 col-12" id ="mob-apply">
                 <h2>
                   Join Our Team At <span>CODE</span>
                 </h2>
                 <p>Work at the most dynamic and successful club of BIET.</p>
-                <div class="join-box">
+                <div class="join-box" id ="mob-apply">
                   <button type="button" class="btn">
                     Apply Now
                   </button>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 col-12">
                 <Image src={myimg} />
               </div>
             </div>
@@ -61,8 +61,7 @@ function App() {
                       <Image src={ij1} />
                       <h3>Large Beautiful Office</h3>
                       <p>
-                        It has survived not only five centuries, but also the
-                        leap into electronic typesetting and more.
+                        Enjoy a comfortable office enviroment with the most modern and stylish furnishing.
                       </p>
                     </div>
                   </div>
@@ -71,8 +70,7 @@ function App() {
                       <Image src={ij2} />
                       <h3>Great Co-Workers</h3>
                       <p>
-                        It has survived not only five centuries, but also the
-                        leap into electronic typesetting and more.
+                        Work with some of the best talents in the industry and connect with them.
                       </p>
                     </div>
                   </div>
@@ -83,8 +81,7 @@ function App() {
                       <Image src={ij3} />
                       <h3>Easy Location</h3>
                       <p>
-                        It has survived not only five centuries, but also the
-                        leap into electronic typesetting and more.
+                        Commute easily to work at your convinience and enjoy compensession for transport costs.
                       </p>
                     </div>
                   </div>
@@ -93,8 +90,7 @@ function App() {
                       <Image src={ij4} />
                       <h3>Education Opportunity</h3>
                       <p>
-                        It has survived not only five centuries, but also the
-                        leap into electronic typesetting and more.
+                        Get resources for developing your skills and knowledge to kickstart your carrer.
                       </p>
                     </div>
                   </div>
@@ -105,8 +101,7 @@ function App() {
                       <Image src={ij5} />
                       <h3>Performance Award</h3>
                       <p>
-                        It has survived not only five centuries, but also the
-                        leap into electronic typesetting and more.
+                        Get awarded for better performance in every 6 months and recognized for your work.
                       </p>
                     </div>
                   </div>
@@ -115,29 +110,28 @@ function App() {
                       <Image src={ij6} />
                       <h3>Free Lunch and Snacks</h3>
                       <p>
-                        It has survived not only five centuries, but also the
-                        leap into electronic typesetting and more.
+                        Enjoy free delicious meals prepared by our trusted vendors for lunch and snaks.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-sm-12" id="your-life-class">
-                <h2>
+                <h2 >
                   Your Life At <br />
                   CODE
                 </h2>
                 <p>
-                  At EleHirely we believe in working together and working hard.
-                  With over 800,000 happy clients, we are looking for dynamic
-                  and ceative induviduels who are willing to dedicate themselves
-                  to providing innovative products and servies for our clients.
+                  At CODE we believe in working together and working hard. we
+                  are looking for dynamic and ceative induviduels who are
+                  willing to dedicate themselves to providing innovative
+                  products and servies for our clients.
                 </p>
                 <p>
                   Besides getting the opportunity ot unlock your true potential,
-                  at EleHirely you can also network with some of the talented
-                  people in the industry, go on annual picnices ouside the
-                  country and enjoy many other benefits by working with us.
+                  at CODE you can also network with some of the talented people
+                  in the industry and enjoy many other benefits by working with
+                  us.
                 </p>
                 <br />
                 <br />
@@ -298,7 +292,7 @@ function App() {
                     class="col-lg-4 col-md-12 col-sm-12"
                   >
                     <div class="your-box">
-                      <h3>Data Scientist</h3>
+                      <h3>Content Writer</h3>
                       <p>Elehirely | Full time or Contact</p>
                       <div class="join-box">
                         <button type="button" class="btn">
@@ -309,7 +303,7 @@ function App() {
                   </div>
                   <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12">
                     <div class="your-box">
-                      <h3>Data Scientist</h3>
+                      <h3>Backend Engineer</h3>
                       <p>Elehirely | Full time or Contact</p>
                       <div class="join-box">
                         <button type="button" class="btn">
@@ -323,7 +317,7 @@ function App() {
                     class="col-lg-4 col-md-12 col-sm-12"
                   >
                     <div class="your-box">
-                      <h3>Data Scientist</h3>
+                      <h3>Corporate Ambassador</h3>
                       <p>Elehirely | Full time or Contact</p>
                       <div class="join-box">
                         <button type="button" class="btn">
@@ -383,8 +377,8 @@ function App() {
               Learn Our Recruitment <span id="changec">Process</span>
             </h1>
             <br />
-            <div  class="row">
-              <div  data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+            <div class="row">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
                 <div class="learn-box">
                   <Image src={ip1} />
                   <h2>CV Submission</h2>
@@ -420,7 +414,7 @@ function App() {
                   <h2>Final Interview</h2>
                   <p>
                     If you can pass all stages we will invite you for a final
-                    interview with our CEO and HR executive.{" "}
+                    interview with our Founder Team.{" "}
                   </p>
                 </div>
               </div>
