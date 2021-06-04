@@ -10,7 +10,7 @@ import "./App.css";
 
 //images imports
 
-import myimg from "./images/carrer.png";
+import myimg from "./images/undraw_product_tour.svg";
 import ij1 from "./images/job_1.png";
 import ij2 from "./images/job_2.png";
 import ij3 from "./images/job_3.png";
@@ -48,7 +48,7 @@ function App() {
                 </div>
               </div>
               <div class="col-sm-6 col-12">
-                <Image src={myimg} />
+                <Image src={myimg} style={{width:'100%'}}/>
               </div>
             </div>
           </div>
