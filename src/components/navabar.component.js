@@ -28,19 +28,19 @@ const Navabar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="" class="link">
+            <Nav.Link href="" class="link" id="ii">
               Home
             </Nav.Link>
-            <Nav.Link href="" class="link">
+            <Nav.Link href="" class="link" id="ii">
               Carrer
             </Nav.Link>
-            <Nav.Link href="" class="link">
+            <Nav.Link href="" class="link" id="ii">
               About Us
             </Nav.Link>
           </Nav>
           <Nav>
             <Form inline>
-              <Button variant="outline-success">Contact Us</Button>
+              <Button variant="outline-success" id="ii1">Contact Us</Button>
             </Form>
           </Nav>
         </Navbar.Collapse>
