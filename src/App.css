@@ -88,18 +88,15 @@
 
 .join-box button {
   font-size: 14px;
-  background-color: whitesmoke;
-  color: #eba91c;
+  color: #fff;
+  background-color: #eba91c;
   border: none;
   border-radius: 25px;
   padding: 12px 30px;
   display: inline-block;
   transition: 0.9s;
 }
-.join-box button:hover {
-  color: #fff;
-  background-color: #eba91c;
-}
+
 #openi {
   text-align: center;
 }
