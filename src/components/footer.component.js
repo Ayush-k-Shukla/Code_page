@@ -31,7 +31,7 @@ const Footer = () => {
 
         <div class="text-center text-dark p-3">
           © 2021 Copyright :
-          <a class="text-dark" href="">
+          <a class="text-dark" href="/">
             Club of Developers, BIET Jhansi
           </a>
         </div>
