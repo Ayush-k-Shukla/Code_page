@@ -24,8 +24,7 @@ import ip4 from "./images/p4.png";
 
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 1800 ,
-      once: true});
+    Aos.init({ duration: 1800, once: true });
   }, []);
   return (
     <Router>
@@ -48,7 +47,7 @@ function App() {
                 </div>
               </div>
               <div class="col-sm-6 col-12">
-                <Image src={myimg} style={{width:'100%'}}/>
+                <Image src={myimg} style={{ width: "100%" }} />
               </div>
             </div>
           </div>
@@ -95,8 +94,8 @@ function App() {
                       <Image src={ij4} />
                       <h3>Education Opportunity</h3>
                       <p>
-                        Get resources for developing your skills and knowledge
-                        to kickstart your carrer.
+                        Get resources for develop your skills and knowledge to
+                        kickstart your carrer.
                       </p>
                     </div>
                   </div>
@@ -127,7 +126,7 @@ function App() {
               <div class="col-md-6 col-sm-12" id="your-life-class">
                 <h2>
                   Your Life At <br />
-                 <span>CODE</span> 
+                  <span>CODE</span>
                 </h2>
                 <p>
                   At CODE we believe in working together and working hard. we
@@ -208,132 +207,137 @@ function App() {
                 </div>
               </div>
             </div>
-            <div class="container">
-              <div class="container" data-aos="fade-up">
-                <div class="row">
-                  <div
-                    data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12 col-12"
-                  >
-                    <div class="your-box">
-                      <h3>Data Scientist</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+            <div>
+              <div class="row">
+                <div
+                  data-aos="fade-up-right"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Data Scientist</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
-                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="your-box">
-                      <h3>Wordpress Developer</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Wordpress Developer</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
-                  <div
-                    data-aos="fade-up-left"
-                    class="col-lg-4 col-md-12 col-sm-12 col-12"
-                  >
-                    <div class="your-box">
-                      <h3>Product Designer</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+                </div>
+                <div
+                  data-aos="fade-up-left"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Product Designer</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="container">
-                <div class="row">
-                  <div
-                    data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12 col-12"
-                  >
-                    <div class="your-box">
-                      <h3>Technical Support</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+
+              <div class="row">
+                <div
+                  data-aos="fade-up-right"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Technical Support</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
-                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="your-box">
-                      <h3>Junior Graphic Designer</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Junior Graphic Designer</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
-                  <div
-                    data-aos="fade-up-left"
-                    class="col-lg-4 col-md-12 col-sm-12 col-12"
-                  >
-                    <div class="your-box">
-                      <h3>Digital Marketer</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+                </div>
+                <div
+                  data-aos="fade-up-left"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Digital Marketer</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="container">
-                <div class="row">
-                  <div
-                    data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12 col-12"
-                  >
-                    <div class="your-box">
-                      <h3>Content Writer</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+
+              <div class="row">
+                <div
+                  data-aos="fade-up-right"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Content Writer</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
-                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="your-box">
-                      <h3>Backend Engineer</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Backend Engineer</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
-                  <div
-                    data-aos="fade-up-left"
-                    class="col-lg-4 col-md-12 col-sm-12 col-12"
-                  >
-                    <div class="your-box">
-                      <h3>Corporate Ambassador</h3>
-                      <p>Elehirely | Full time or Contact</p>
-                      <div class="join-box">
-                        <button type="button" class="btn">
-                          Apply Now
-                        </button>
-                      </div>
+                </div>
+                <div
+                  data-aos="fade-up-left"
+                  class="col-lg-4 col-md-12 col-sm-12 col-12"
+                >
+                  <div class="your-box-job">
+                    <h3>Corporate Ambassador</h3>
+                    <p>Elehirely | Full time or Contact</p>
+                    <div class="join-box">
+                      <button type="button" class="btn">
+                        Apply Now
+                      </button>
                     </div>
                   </div>
                 </div>
