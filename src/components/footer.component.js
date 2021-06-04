@@ -10,7 +10,6 @@ import {
 
 import "./nav.css";
 import "aos/dist/aos.css";
-import i1 from "./code_logo.png";
 
 const Footer = () => {
   return (

@@ -21,17 +21,25 @@ import i1 from "./code_logo.png";
 const Navabar = () => {
   return (
     <div class="container">
-      <Navbar  collapseOnSelect expand="lg" bg="white" variant="light">
-        <Navbar.Brand href="/" class="logo"><img class="img-responsive" src={i1} alt="logo-img"></img></Navbar.Brand>
+      <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
+        <Navbar.Brand href="/" class="logo">
+          <img class="img-responsive" src={i1} alt="logo-img"></img>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-          <Nav.Link  href="/" class="link">Home</Nav.Link>
-              <Nav.Link href="/" class="link">Carrer</Nav.Link>
-              <Nav.Link href="/" class="link">About Us</Nav.Link></Nav>
+            <Nav.Link href="/" class="link">
+              Home
+            </Nav.Link>
+            <Nav.Link href="/" class="link">
+              Carrer
+            </Nav.Link>
+            <Nav.Link href="/" class="link">
+              About Us
+            </Nav.Link>
+          </Nav>
           <Nav>
             <Form inline>
-              
               <Button variant="outline-success">Contact Us</Button>
             </Form>
           </Nav>

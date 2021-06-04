@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap"rel="stylesheet");
-
 .font-op {
   font-family: Poppins;
 }
-
 #stats {
   background-color: #eba91c;
   border-radius: 1rem;
@@ -26,10 +23,7 @@
 #recruitment-text {
   text-align: center;
 }
-.career-section {
-  background-color: rgb(237, 248, 255);
-  padding: 100px 0px;
-}
+
 #po1 {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -42,7 +36,7 @@
 }
 .career-section {
   padding: 200px 0px 100px 0px;
-  background-color: #edf8ff;
+  background-color: white;
 }
 .career-section h2 {
   font-size: 60px;
@@ -55,14 +49,6 @@
 .career-section img {
   margin: 0 auto;
   display: block;
-}
-
-@media only screen and (max-width: 768px) {
-  html,
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
 }
 
 .your-life {
@@ -102,7 +88,7 @@
 
 .join-box button {
   font-size: 14px;
-  background-color: #1d88cd2e;
+  background-color: whitesmoke;
   color: #eba91c;
   border: none;
   border-radius: 25px;
@@ -167,7 +153,6 @@
   padding-bottom: 0;
 }
 
-
 @media only screen and (max-width: 600px) {
   #mob-apply {
     padding-top: -20px;
@@ -191,5 +176,13 @@
   }
   #stats h6 {
     font-size: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
   }
 }

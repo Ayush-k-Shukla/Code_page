@@ -3,12 +3,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Image, InputGroup, FormControl } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import "./App.css";
-
 import Navabar from "./components/navabar.component";
 import Footer from "./components/footer.component";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+//images imports
+
 import myimg from "./images/carrer.png";
 import ij1 from "./images/job_1.png";
 import ij2 from "./images/job_2.png";
@@ -34,12 +35,12 @@ function App() {
         <section class="career-section">
           <div class="container">
             <div data-aos="fade-up" class="row">
-              <div class="col-sm-6 col-12" id ="mob-apply">
+              <div class="col-sm-6 col-12" id="mob-apply">
                 <h2>
                   Join Our Team At <span>CODE</span>
                 </h2>
                 <p>Work at the most dynamic and successful club of BIET.</p>
-                <div class="join-box" id ="mob-apply">
+                <div class="join-box" id="mob-apply">
                   <button type="button" class="btn">
                     Apply Now
                   </button>
@@ -61,7 +62,8 @@ function App() {
                       <Image src={ij1} />
                       <h3>Large Beautiful Office</h3>
                       <p>
-                        Enjoy a comfortable office enviroment with the most modern and stylish furnishing.
+                        Enjoy a comfortable office enviroment with the most
+                        modern and stylish furnishing.
                       </p>
                     </div>
                   </div>
@@ -70,7 +72,8 @@ function App() {
                       <Image src={ij2} />
                       <h3>Great Co-Workers</h3>
                       <p>
-                        Work with some of the best talents in the industry and connect with them.
+                        Work with some of the best talents in the industry and
+                        connect with them.
                       </p>
                     </div>
                   </div>
@@ -81,7 +84,8 @@ function App() {
                       <Image src={ij3} />
                       <h3>Easy Location</h3>
                       <p>
-                        Commute easily to work at your convinience and enjoy compensession for transport costs.
+                        Commute easily to work at your convinience and enjoy
+                        compensession for transport costs.
                       </p>
                     </div>
                   </div>
@@ -90,7 +94,8 @@ function App() {
                       <Image src={ij4} />
                       <h3>Education Opportunity</h3>
                       <p>
-                        Get resources for developing your skills and knowledge to kickstart your carrer.
+                        Get resources for developing your skills and knowledge
+                        to kickstart your carrer.
                       </p>
                     </div>
                   </div>
@@ -101,7 +106,8 @@ function App() {
                       <Image src={ij5} />
                       <h3>Performance Award</h3>
                       <p>
-                        Get awarded for better performance in every 6 months and recognized for your work.
+                        Get awarded for better performance in every 6 months and
+                        recognized for your work.
                       </p>
                     </div>
                   </div>
@@ -110,14 +116,15 @@ function App() {
                       <Image src={ij6} />
                       <h3>Free Lunch and Snacks</h3>
                       <p>
-                        Enjoy free delicious meals prepared by our trusted vendors for lunch and snaks.
+                        Enjoy free delicious meals prepared by our trusted
+                        vendors for lunch and snaks.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-sm-12" id="your-life-class">
-                <h2 >
+                <h2>
                   Your Life At <br />
                   CODE
                 </h2>
@@ -151,7 +158,9 @@ function App() {
               <div>
                 <InputGroup size="lg">
                   <InputGroup.Prepend>
-                    <InputGroup.Text id="inputGroup-sizing-lg">Search</InputGroup.Text>
+                    <InputGroup.Text id="inputGroup-sizing-lg">
+                      Search
+                    </InputGroup.Text>
                   </InputGroup.Prepend>
                   <FormControl
                     aria-label="Large"
@@ -242,7 +251,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div class="containerp">
+              <div class="container">
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
@@ -285,7 +294,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div class="r3">
+              <div class="container">
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
@@ -378,7 +387,7 @@ function App() {
             </h1>
             <br />
             <div class="row">
-              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="learn-box">
                   <Image src={ip1} />
                   <h2>CV Submission</h2>
@@ -388,7 +397,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="learn-box">
                   <Image src={ip2} />
                   <h2>Phone Screening</h2>
@@ -398,7 +407,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="learn-box">
                   <Image src={ip3} />
                   <h2>Skill Assessment</h2>
@@ -408,7 +417,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+              <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="learn-box">
                   <Image src={ip4} />
                   <h2>Final Interview</h2>
