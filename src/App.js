@@ -213,7 +213,7 @@ function App() {
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12 "
+                    class="col-lg-4 col-md-12 col-sm-12 col-12"
                   >
                     <div class="your-box">
                       <h3>Data Scientist</h3>
@@ -225,7 +225,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12">
+                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="your-box">
                       <h3>Wordpress Developer</h3>
                       <p>Elehirely | Full time or Contact</p>
@@ -238,7 +238,7 @@ function App() {
                   </div>
                   <div
                     data-aos="fade-up-left"
-                    class="col-lg-4 col-md-12 col-sm-12"
+                    class="col-lg-4 col-md-12 col-sm-12 col-12"
                   >
                     <div class="your-box">
                       <h3>Product Designer</h3>
@@ -256,7 +256,7 @@ function App() {
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12"
+                    class="col-lg-4 col-md-12 col-sm-12 col-12"
                   >
                     <div class="your-box">
                       <h3>Technical Support</h3>
@@ -268,7 +268,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12">
+                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="your-box">
                       <h3>Junior Graphic Designer</h3>
                       <p>Elehirely | Full time or Contact</p>
@@ -281,7 +281,7 @@ function App() {
                   </div>
                   <div
                     data-aos="fade-up-left"
-                    class="col-lg-4 col-md-12 col-sm-12"
+                    class="col-lg-4 col-md-12 col-sm-12 col-12"
                   >
                     <div class="your-box">
                       <h3>Digital Marketer</h3>
@@ -299,7 +299,7 @@ function App() {
                 <div class="row">
                   <div
                     data-aos="fade-up-right"
-                    class="col-lg-4 col-md-12 col-sm-12"
+                    class="col-lg-4 col-md-12 col-sm-12 col-12"
                   >
                     <div class="your-box">
                       <h3>Content Writer</h3>
@@ -311,7 +311,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12">
+                  <div data-aos="fade-up" class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="your-box">
                       <h3>Backend Engineer</h3>
                       <p>Elehirely | Full time or Contact</p>
@@ -324,7 +324,7 @@ function App() {
                   </div>
                   <div
                     data-aos="fade-up-left"
-                    class="col-lg-4 col-md-12 col-sm-12"
+                    class="col-lg-4 col-md-12 col-sm-12 col-12"
                   >
                     <div class="your-box">
                       <h3>Corporate Ambassador</h3>
