@@ -24,7 +24,8 @@ import ip4 from "./images/p4.png";
 
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 1800 });
+    Aos.init({ duration: 1800 ,
+      once: true});
   }, []);
   return (
     <Router>
@@ -73,7 +74,7 @@ function App() {
                       <h3>Great Co-Workers</h3>
                       <p>
                         Work with some of the best talents in the industry and
-                        connect with them.
+                        connect with them through us.
                       </p>
                     </div>
                   </div>
@@ -126,7 +127,7 @@ function App() {
               <div class="col-md-6 col-sm-12" id="your-life-class">
                 <h2>
                   Your Life At <br />
-                  CODE
+                 <span>CODE</span> 
                 </h2>
                 <p>
                   At CODE we believe in working together and working hard. we
@@ -154,8 +155,8 @@ function App() {
         <section data-aos="fade-up" class="jobs-available">
           <div class="container">
             <div class="your-box">
-              <h2>Job Openings</h2>
-              <div>
+              <h2 class="container">Job Openings</h2>
+              <div class="container">
                 <InputGroup size="lg">
                   <InputGroup.Prepend>
                     <InputGroup.Text id="inputGroup-sizing-lg">
